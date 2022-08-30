@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BDFF45B28BDF63500BADE70 /* Body_Worn_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF45A28BDF63500BADE70 /* Body_Worn_AppApp.swift */; };
+		6BDFF45D28BDF63500BADE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF45C28BDF63500BADE70 /* ContentView.swift */; };
+		6BDFF45F28BDF63900BADE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFF45E28BDF63900BADE70 /* Assets.xcassets */; };
+		6BDFF46228BDF63900BADE70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFF46128BDF63900BADE70 /* Preview Assets.xcassets */; };
+		6BDFF46C28BDF63900BADE70 /* Body_Worn_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF46B28BDF63900BADE70 /* Body_Worn_AppTests.swift */; };
+		6BDFF47628BDF63900BADE70 /* Body_Worn_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF47528BDF63900BADE70 /* Body_Worn_AppUITests.swift */; };
+		6BDFF47828BDF63900BADE70 /* Body_Worn_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF47728BDF63900BADE70 /* Body_Worn_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BDFF46828BDF63900BADE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDFF44F28BDF63500BADE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDFF45628BDF63500BADE70;
+			remoteInfo = "Body Worn App";
+		};
+		6BDFF47228BDF63900BADE70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDFF44F28BDF63500BADE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDFF45628BDF63500BADE70;
+			remoteInfo = "Body Worn App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BDFF45728BDF63500BADE70 /* Body Worn App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Worn App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDFF45A28BDF63500BADE70 /* Body_Worn_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_Worn_AppApp.swift; sourceTree = "<group>"; };
+		6BDFF45C28BDF63500BADE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BDFF45E28BDF63900BADE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BDFF46128BDF63900BADE70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BDFF46728BDF63900BADE70 /* Body Worn AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Body Worn AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDFF46B28BDF63900BADE70 /* Body_Worn_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_Worn_AppTests.swift; sourceTree = "<group>"; };
+		6BDFF47128BDF63900BADE70 /* Body Worn AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Body Worn AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDFF47528BDF63900BADE70 /* Body_Worn_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_Worn_AppUITests.swift; sourceTree = "<group>"; };
+		6BDFF47728BDF63900BADE70 /* Body_Worn_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_Worn_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BDFF45428BDF63500BADE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46428BDF63900BADE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46E28BDF63900BADE70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BDFF44E28BDF63500BADE70 = {
+			isa = PBXGroup;
+			children = (
+				6BDFF45928BDF63500BADE70 /* Body Worn App */,
+				6BDFF46A28BDF63900BADE70 /* Body Worn AppTests */,
+				6BDFF47428BDF63900BADE70 /* Body Worn AppUITests */,
+				6BDFF45828BDF63500BADE70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BDFF45828BDF63500BADE70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF45728BDF63500BADE70 /* Body Worn App.app */,
+				6BDFF46728BDF63900BADE70 /* Body Worn AppTests.xctest */,
+				6BDFF47128BDF63900BADE70 /* Body Worn AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDFF45928BDF63500BADE70 /* Body Worn App */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF45A28BDF63500BADE70 /* Body_Worn_AppApp.swift */,
+				6BDFF45C28BDF63500BADE70 /* ContentView.swift */,
+				6BDFF45E28BDF63900BADE70 /* Assets.xcassets */,
+				6BDFF46028BDF63900BADE70 /* Preview Content */,
+			);
+			path = "Body Worn App";
+			sourceTree = "<group>";
+		};
+		6BDFF46028BDF63900BADE70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF46128BDF63900BADE70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BDFF46A28BDF63900BADE70 /* Body Worn AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF46B28BDF63900BADE70 /* Body_Worn_AppTests.swift */,
+			);
+			path = "Body Worn AppTests";
+			sourceTree = "<group>";
+		};
+		6BDFF47428BDF63900BADE70 /* Body Worn AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BDFF47528BDF63900BADE70 /* Body_Worn_AppUITests.swift */,
+				6BDFF47728BDF63900BADE70 /* Body_Worn_AppUITestsLaunchTests.swift */,
+			);
+			path = "Body Worn AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BDFF45628BDF63500BADE70 /* Body Worn App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDFF47B28BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn App" */;
+			buildPhases = (
+				6BDFF45328BDF63500BADE70 /* Sources */,
+				6BDFF45428BDF63500BADE70 /* Frameworks */,
+				6BDFF45528BDF63500BADE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Body Worn App";
+			productName = "Body Worn App";
+			productReference = 6BDFF45728BDF63500BADE70 /* Body Worn App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BDFF46628BDF63900BADE70 /* Body Worn AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDFF47E28BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn AppTests" */;
+			buildPhases = (
+				6BDFF46328BDF63900BADE70 /* Sources */,
+				6BDFF46428BDF63900BADE70 /* Frameworks */,
+				6BDFF46528BDF63900BADE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDFF46928BDF63900BADE70 /* PBXTargetDependency */,
+			);
+			name = "Body Worn AppTests";
+			productName = "Body Worn AppTests";
+			productReference = 6BDFF46728BDF63900BADE70 /* Body Worn AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BDFF47028BDF63900BADE70 /* Body Worn AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDFF48128BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn AppUITests" */;
+			buildPhases = (
+				6BDFF46D28BDF63900BADE70 /* Sources */,
+				6BDFF46E28BDF63900BADE70 /* Frameworks */,
+				6BDFF46F28BDF63900BADE70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDFF47328BDF63900BADE70 /* PBXTargetDependency */,
+			);
+			name = "Body Worn AppUITests";
+			productName = "Body Worn AppUITests";
+			productReference = 6BDFF47128BDF63900BADE70 /* Body Worn AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDFF44F28BDF63500BADE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6BDFF45628BDF63500BADE70 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6BDFF46628BDF63900BADE70 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6BDFF45628BDF63500BADE70;
+					};
+					6BDFF47028BDF63900BADE70 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 6BDFF45628BDF63500BADE70;
+					};
+				};
+			};
+			buildConfigurationList = 6BDFF45228BDF63500BADE70 /* Build configuration list for PBXProject "Body Worn App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BDFF44E28BDF63500BADE70;
+			productRefGroup = 6BDFF45828BDF63500BADE70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDFF45628BDF63500BADE70 /* Body Worn App */,
+				6BDFF46628BDF63900BADE70 /* Body Worn AppTests */,
+				6BDFF47028BDF63900BADE70 /* Body Worn AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BDFF45528BDF63500BADE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDFF46228BDF63900BADE70 /* Preview Assets.xcassets in Resources */,
+				6BDFF45F28BDF63900BADE70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46528BDF63900BADE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46F28BDF63900BADE70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BDFF45328BDF63500BADE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDFF45D28BDF63500BADE70 /* ContentView.swift in Sources */,
+				6BDFF45B28BDF63500BADE70 /* Body_Worn_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46328BDF63900BADE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDFF46C28BDF63900BADE70 /* Body_Worn_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDFF46D28BDF63900BADE70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDFF47828BDF63900BADE70 /* Body_Worn_AppUITestsLaunchTests.swift in Sources */,
+				6BDFF47628BDF63900BADE70 /* Body_Worn_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BDFF46928BDF63900BADE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDFF45628BDF63500BADE70 /* Body Worn App */;
+			targetProxy = 6BDFF46828BDF63900BADE70 /* PBXContainerItemProxy */;
+		};
+		6BDFF47328BDF63900BADE70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDFF45628BDF63500BADE70 /* Body Worn App */;
+			targetProxy = 6BDFF47228BDF63900BADE70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BDFF47928BDF63900BADE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BDFF47A28BDF63900BADE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BDFF47C28BDF63900BADE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Body Worn App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDFF47D28BDF63900BADE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Body Worn App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BDFF47F28BDF63900BADE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Body Worn App.app/Body Worn App";
+			};
+			name = Debug;
+		};
+		6BDFF48028BDF63900BADE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Body Worn App.app/Body Worn App";
+			};
+			name = Release;
+		};
+		6BDFF48228BDF63900BADE70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Body Worn App";
+			};
+			name = Debug;
+		};
+		6BDFF48328BDF63900BADE70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CK2AF33WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.connection.Body-Worn-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Body Worn App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BDFF45228BDF63500BADE70 /* Build configuration list for PBXProject "Body Worn App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF47928BDF63900BADE70 /* Debug */,
+				6BDFF47A28BDF63900BADE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDFF47B28BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF47C28BDF63900BADE70 /* Debug */,
+				6BDFF47D28BDF63900BADE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDFF47E28BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF47F28BDF63900BADE70 /* Debug */,
+				6BDFF48028BDF63900BADE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDFF48128BDF63900BADE70 /* Build configuration list for PBXNativeTarget "Body Worn AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDFF48228BDF63900BADE70 /* Debug */,
+				6BDFF48328BDF63900BADE70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDFF44F28BDF63500BADE70 /* Project object */;
+}
