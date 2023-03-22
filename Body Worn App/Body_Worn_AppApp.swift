@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Body_Worn_AppApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
